@@ -31,6 +31,7 @@ python corrigir.py nome_do_arquivo.xlsx
 ```
 
 4. O script criará três novos arquivos Excel na mesma pasta em que o arquivo original está localizado:
+
    - COMCPF.xlsx: tabela limpa com valores padronizados e sem registros nulos de CPF.
    - CPFsnulos.xlsx: tabela com registros nulos de CPF.
    - CPFs_e_fones_nulos.xlsx: tabela com registros nulos de CPF e telefone.
