@@ -14,7 +14,9 @@ Certifique-se de ter o Python 3 instalado em seu computador. Você pode baixar o
 
 Instale as dependências usando o pip. Abra o terminal ou prompt de comando e digite o seguinte comando:
 
-$ pip install pandas re sys
+```shell
+pip install pandas re sys
+```
 
 ## Como Usar
 
@@ -24,7 +26,9 @@ $ pip install pandas re sys
 
 3. Execute o script com o seguinte comando, substituindo "nome_do_arquivo.xlsx" pelo nome do arquivo que você deseja limpar:
 
-$ python corrigir.py nome_do_arquivo.xlsx
+```shell
+python corrigir.py nome_do_arquivo.xlsx
+```
 
 4. O script criará três novos arquivos Excel na mesma pasta em que o arquivo original está localizado:
    - COMCPF.xlsx: tabela limpa com valores padronizados e sem registros nulos de CPF.
