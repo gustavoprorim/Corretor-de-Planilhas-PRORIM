@@ -1,4 +1,4 @@
-# Algoritmo de Limpeza de Dados em Python
+# Algoritmo de Limpeza de Dados em Python para as Planilhas 
 
 Este é um algoritmo desenvolvido em Python 3 para limpar dados de uma tabela em formato Excel, com o objetivo de padronizar e corrigir valores, além de separar registros com valores nulos para posterior tratamento.
 
@@ -14,7 +14,8 @@ Certifique-se de ter o Python 3 instalado em seu computador. Você pode baixar o
 
 Instale as dependências usando o pip. Abra o terminal ou prompt de comando e digite o seguinte comando:
 
-```pip install pandas re sys```
+```shell
+pip install pandas re sys```
 
 ## Como Usar
 
@@ -24,7 +25,8 @@ Instale as dependências usando o pip. Abra o terminal ou prompt de comando e di
 
 3. Execute o script com o seguinte comando, substituindo "nome_do_arquivo.xlsx" pelo nome do arquivo que você deseja limpar:
 
-```python corrigir.py nome_do_arquivo.xlsx```
+```shell
+python corrigir.py nome_do_arquivo.xlsx```
 
 4. O script criará três novos arquivos Excel na mesma pasta em que o arquivo original está localizado:
    - COMCPF.xlsx: tabela limpa com valores padronizados e sem registros nulos de CPF.
