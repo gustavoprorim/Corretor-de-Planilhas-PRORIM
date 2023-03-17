@@ -52,5 +52,4 @@ df.to_excel('COMCPF.xlsx', index=False)
 
 print(f"Tabela original tem {df.shape[0]} linhas")
 print(f"Tabela com registros de CPF´s nulos tem {df_nulos.shape[0]} linhas")
-print(
-    f"Tabela com registros nulos de telefone e CPF tem {df_nulos_fones.shape[0]} linhas")
+print(f"Tabela com registros nulos de telefone e CPF tem {df_nulos_fones.shape[0]} linhas")
